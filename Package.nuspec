@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Dexyon.MvvmCross.Plugins.Babel</id>
+    <version>1.0.0</version>
+    <title>MvvmCross - Babel Plugin</title>
+    <authors>MvvmCross</authors>
+    <owners>Erik van Seters</owners>
+    <licenseUrl>http://opensource.org/licenses/ms-pl.html</licenseUrl>
+    <projectUrl>https://github.com/Dexyon/Dexyon.MvvmCross.Plugins.Babel</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains some code to add Babel / Multilanguage capabilities to your MvvmCross app.</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>mvvm mvvmcross xamarin monodroid monotouch </tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- PCL - Content -->
+    <file src="Dexyon.MvvmCross.Plugins.Babel.Core\ViewModels\BaseBabelViewModel.cs.pp" target="content\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\ViewModels\BaseBabelViewModel.cs.pp" />
+    <file src="Dexyon.MvvmCross.Plugins.Babel.Core\Services\TextProviderBuilder.cs.pp" target="content\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Services\TextProviderBuilder.cs.pp" />
+    <file src="Dexyon.MvvmCross.Plugins.Babel.Core\Constants.cs.pp" target="content\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Constants.cs.pp" />
+    <file src="Dexyon.MvvmCross.Plugins.Babel.Core\App.cs.txt" target="content\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\App.cs.txt" />
+  
+    <!-- droid - Content -->
+    <file src="Dexyon.MvvmCross.Plugins.Babel.Droid\_todoBabel.txt" target="content\MonoAndroid\ToDo-MvvmCross\_todoBabel.txt" />
+    
+    <!-- touch - Content -->
+    <file src="Dexyon.MvvmCross.Plugins.Babel.Touch\_todoBabel.txt" target="content\MonoTouch\ToDo-MvvmCross\_todoBabel.txt" />
+
+  </files>
+</package>
