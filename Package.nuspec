@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Dexyon.MvvmCross.Plugins.Babel</id>
-    <version>1.0.0</version>
+    <version>3.2.2</version>
     <title>MvvmCross - Babel Plugin</title>
     <authors>MvvmCross</authors>
     <owners>Erik van Seters</owners>
@@ -14,7 +14,10 @@
     <copyright>Copyright 2014</copyright>
     <tags>mvvm mvvmcross xamarin monodroid monotouch </tags>
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+      <dependency id="MvvmCross.HotTuna.Plugin.File" version="3.2.2" />
+      <dependency id="MvvmCross.HotTuna.Plugin.JsonLocalisation" version="3.2.2" />
+      odependency id="MvvmCross.HotTuna.Plugin.Json" version="3.2.2" />
+      <dependency id="MvvmCross.HotTuna.Plugin.ResourceLoader" version="3.2.2" />
     </dependencies>
   </metadata>
   <files>
