@@ -1,0 +1,4 @@
+﻿Add a Folder 'BabelResources/Text' and add links to the JSON files. 
+These files should have the properties:
+* Build Action: 'BundleResource'
+* Copy to Ouput Directory: 'Do not copy' 

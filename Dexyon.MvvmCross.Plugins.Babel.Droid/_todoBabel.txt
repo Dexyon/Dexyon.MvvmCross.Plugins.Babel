@@ -1,0 +1,5 @@
+﻿Add a Folder 'BabelResources/Text' under 'Assets' and add links to the JSON files. 
+These files should have the properties:
+* Build Action: 'AndroidAsset'
+* Copy to Ouput Directory: 'Do not copy' 
+
